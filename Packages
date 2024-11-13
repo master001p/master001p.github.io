@@ -12,3 +12,17 @@ Priority: optional
 Author: admin
 Name: libRemoteControl
 
+Package: com.ha.libRemoteControl
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.ha.libRemoteControl_1.0.5_iphoneos-arm64e.deb
+Size: 496452
+MD5sum: 86e235fa5782d8029023b7adb5c1abe5
+SHA1: e866d51dcd34f5b2869a0416d7778c81b85eaa60
+SHA256: 1f0dd66a9a62299e50fd90c9395162bf415c5709be0262cc1832f609aca0eed7
+Section: Tweaks
+Priority: optional
+Author: admin
+Name: libRemoteControl
+
