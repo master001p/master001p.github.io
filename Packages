@@ -1,13 +1,13 @@
 Package: com.ha.libRemoteControl
-Version: 1.0.86
+Version: 1.0.87
 Architecture: iphoneos-arm64e
 Maintainer: Maintainer
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.ha.libRemoteControl_1.0.86_iphoneos-arm64e.deb
-Size: 837918
-MD5sum: 0da71128508d4cba475ebddf64815803
-SHA1: fd6ed1f15297a1a4d696876475d0f8771e19a81b
-SHA256: 8ebb21f94e010576362dd87957a7f9da6afb555c47fa9d5e6a0169d462817b35
+Filename: ./debs/com.ha.libRemoteControl_1.0.87_iphoneos-arm64e.deb
+Size: 844148
+MD5sum: 6b50e75808f38681e14779ed218b2cc2
+SHA1: 461170e6a68f48f34125c80b047bf228b42e9c6b
+SHA256: 8816bcfc189fcd165cf06f7aff5aad872b0f75737b1ef85b7d6134cafd656b63
 Section: Tweaks
 Priority: optional
 Description: RemoteControl
