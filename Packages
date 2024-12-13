@@ -35,10 +35,10 @@ Version: 0.1
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 13.0), mobilesubstrate
 Filename: ./debs/mmel.com.libIosIl2CppDumper_0.1_iphoneos-arm64e.deb
-Size: 186350
-MD5sum: b5517c87b31a97942f5dce67ec35d770
-SHA1: 9a6709e6ed57ab9cd665b3894877adfb384be5b4
-SHA256: f5de4b0d37d8c2861e419f674543997b98899381a2c2e2d547bdcde32a18d47d
+Size: 186622
+MD5sum: 20934a702e327b8a3ef9bd26553e9316
+SHA1: bd19efb617df6f8ee2ac4f6fe16e0738ccd541e5
+SHA256: 2222f8d5c67a76e3fb09c33c658147160c0f525e65971c4b9a85ab64338c075a
 Section: Tweaks
 Priority: optional
 Author: admin
