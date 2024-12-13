@@ -30,3 +30,17 @@ Description: RemoteControl
 Author: admin
 Name: libRemoteControl
 
+Package: mmel.com.libIosIl2CppDumper
+Version: 0.1
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/mmel.com.libIosIl2CppDumper_0.1_iphoneos-arm64e.deb
+Size: 186350
+MD5sum: b5517c87b31a97942f5dce67ec35d770
+SHA1: 9a6709e6ed57ab9cd665b3894877adfb384be5b4
+SHA256: f5de4b0d37d8c2861e419f674543997b98899381a2c2e2d547bdcde32a18d47d
+Section: Tweaks
+Priority: optional
+Author: admin
+Name: libIosIl2CppDumper
+
