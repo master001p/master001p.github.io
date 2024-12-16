@@ -1,20 +1,4 @@
 Package: com.ha.libRemoteControl
-Version: 1.0.87
-Architecture: iphoneos-arm64e
-Maintainer: Maintainer
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.ha.libRemoteControl_1.0.87_iphoneos-arm64e.deb
-Size: 844148
-MD5sum: 6b50e75808f38681e14779ed218b2cc2
-SHA1: 461170e6a68f48f34125c80b047bf228b42e9c6b
-SHA256: 8816bcfc189fcd165cf06f7aff5aad872b0f75737b1ef85b7d6134cafd656b63
-Section: Tweaks
-Priority: optional
-Description: RemoteControl
-Author: admin
-Name: libRemoteControl
-
-Package: com.ha.libRemoteControl
 Version: 1.0.88
 Architecture: iphoneos-arm64e
 Maintainer: Maintainer
@@ -24,6 +8,22 @@ Size: 846448
 MD5sum: efd881c39d123593034fe25160b1cebf
 SHA1: 28a8398bc778ff8afeaf8534160d2c043eef0766
 SHA256: 5a70a72d974ef6da8701cd59743f5e8a0b48493b4cb648a226b97c0e1b037f93
+Section: Tweaks
+Priority: optional
+Description: RemoteControl
+Author: admin
+Name: libRemoteControl
+
+Package: com.ha.libRemoteControl
+Version: 1.0.89
+Architecture: iphoneos-arm64e
+Maintainer: Maintainer
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.ha.libRemoteControl_1.0.89_iphoneos-arm64e.deb
+Size: 858572
+MD5sum: 4d66832208feda633fd654c4190fa91f
+SHA1: c1eb89296b5c9e080862a7189290945c99904d54
+SHA256: a178e6271f80a8aa3c33c6c6e5254c85f9280013c2c1e4a86457a90975026bba
 Section: Tweaks
 Priority: optional
 Description: RemoteControl
