@@ -4,31 +4,15 @@ Architecture: iphoneos-arm64e
 Maintainer: Maintainer
 Depends: firmware (>= 13.0)
 Filename: ./debs/com.ha.LiteAv_1.0_iphoneos-arm64e.deb
-Size: 1793264
-MD5sum: 5a6cd056ad831d0d1394458f2d66512e
-SHA1: 436554370a6bd7e4c97af8c1d28188f2bf913fa9
-SHA256: 2429fe0c9cbfd2e3e6fe4231c8fee9bd603631214d9f551c127bd158d29feb62
+Size: 1785404
+MD5sum: d156152e87ecdb702f536ca776e2aaab
+SHA1: 2fac5dc84204aa0750f51d5bcd255f11871f4e4c
+SHA256: b1df1da85b723843ae81a0cfd157c91e8fc169d52b98da37eae159262c6a9038
 Section: Tweaks
 Priority: optional
 Description: LiteAv
 Author: admin
 Name: LiteAv
-
-Package: com.ha.libRemoteControl
-Version: 1.0.88
-Architecture: iphoneos-arm64e
-Maintainer: Maintainer
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.ha.libRemoteControl_1.0.88_iphoneos-arm64e.deb
-Size: 846448
-MD5sum: efd881c39d123593034fe25160b1cebf
-SHA1: 28a8398bc778ff8afeaf8534160d2c043eef0766
-SHA256: 5a70a72d974ef6da8701cd59743f5e8a0b48493b4cb648a226b97c0e1b037f93
-Section: Tweaks
-Priority: optional
-Description: RemoteControl
-Author: admin
-Name: libRemoteControl
 
 Package: com.ha.libRemoteControl
 Version: 1.0.89
@@ -40,6 +24,22 @@ Size: 858572
 MD5sum: 4d66832208feda633fd654c4190fa91f
 SHA1: c1eb89296b5c9e080862a7189290945c99904d54
 SHA256: a178e6271f80a8aa3c33c6c6e5254c85f9280013c2c1e4a86457a90975026bba
+Section: Tweaks
+Priority: optional
+Description: RemoteControl
+Author: admin
+Name: libRemoteControl
+
+Package: com.ha.libRemoteControl
+Version: 1.0.90
+Architecture: iphoneos-arm64e
+Maintainer: Maintainer
+Depends: firmware (>= 13.0), mobilesubstrate,LiteAv
+Filename: ./debs/com.ha.libRemoteControl_1.0.90_iphoneos-arm64e.deb
+Size: 695426
+MD5sum: 6a9fd021adea75e7b949c3564167ebdb
+SHA1: 8e57cbf286acdfa7f6c54d8c3d686f2f5dfe75f4
+SHA256: 0daf0de340c62187d0bcc5e46c0dd093fb53361a366b531655a5c3b71e8b9e4b
 Section: Tweaks
 Priority: optional
 Description: RemoteControl
