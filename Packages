@@ -47,15 +47,15 @@ Author: admin
 Depiction: ApplicationLiteAv
 
 Package: liteav-app
-Version: 1.2
+Version: 1.3
 Architecture: iphoneos-arm64e
 Maintainer: Maintainer
 Depends: firmware (>= 13.0)
-Filename: ./debs/liteav-app_1.2_iphoneos-arm64e.deb
-Size: 1733786
-MD5sum: a36756171536f89851c02bc86964c4ec
-SHA1: c14e325ed2e687e6f9ff1ba8f09115b4aa38e18e
-SHA256: cd47752634da5c464ccfea5015781c1797bda23c235424784c84709b2dbaca1b
+Filename: ./debs/liteav-app_1.3_iphoneos-arm64e.deb
+Size: 1733782
+MD5sum: f56089e7301de79552262ef303059a5d
+SHA1: bd99a076eb5af429a526ee38307742f0854ebd55
+SHA256: b9b051835d281fb1e0c4289fa779858657a8a8b401cda916ce91f15f3874389a
 Section: Tweaks
 Priority: optional
 Description: AppleApplication
