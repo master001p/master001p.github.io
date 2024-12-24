@@ -1,20 +1,4 @@
 Package: com.ha.libRemoteControl
-Version: 1.0.89
-Architecture: iphoneos-arm64e
-Maintainer: Maintainer
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.ha.libRemoteControl_1.0.89_iphoneos-arm64e.deb
-Size: 858572
-MD5sum: 4d66832208feda633fd654c4190fa91f
-SHA1: c1eb89296b5c9e080862a7189290945c99904d54
-SHA256: a178e6271f80a8aa3c33c6c6e5254c85f9280013c2c1e4a86457a90975026bba
-Section: Tweaks
-Priority: optional
-Description: RemoteControl
-Author: admin
-Name: libRemoteControl
-
-Package: com.ha.libRemoteControl
 Version: 1.0.90
 Architecture: iphoneos-arm64e
 Maintainer: Maintainer
@@ -29,22 +13,6 @@ Priority: optional
 Description: RemoteControl
 Author: admin
 Name: libRemoteControl
-
-Package: liteav-app
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: Maintainer
-Depends: firmware (>= 13.0)
-Filename: ./debs/liteav-app_1.0_iphoneos-arm64e.deb
-Size: 1785370
-MD5sum: e46f282e21a81485da5aa073a8a068ca
-SHA1: c6ad64f00e5b569173e211a0cd6be10660c940bd
-SHA256: e2ebabfaa13931285ea718e0664579f3eaf6a1d3174f44be2c2cc0245b237168
-Section: Tweaks
-Priority: optional
-Description: AppleApplication
-Author: admin
-Depiction: ApplicationLiteAv
 
 Package: liteav-app
 Version: 1.3
@@ -75,4 +43,18 @@ Section: Tweaks
 Priority: optional
 Author: admin
 Name: libIosIl2CppDumper
+
+Package: mmel.com.libPaymentOut
+Version: 0.1
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/mmel.com.libPaymentOut_0.1_iphoneos-arm64e.deb
+Size: 106862
+MD5sum: 82ead8ef1a2a4520794e29cd54444771
+SHA1: b5a830fe7f6f56c61d3d4fa29de55b7ef8bd6b44
+SHA256: 413e17c8f761aaac3a5b6f19dd1461c7c4f8a518e564a1e60dc7236c8e5da94b
+Section: Tweaks
+Priority: optional
+Author: admin
+Name: PaymentOut
 
