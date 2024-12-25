@@ -45,14 +45,14 @@ Author: admin
 Name: libIosIl2CppDumper
 
 Package: mmel.com.libPaymentOut
-Version: 0.1
+Version: 0.2
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/mmel.com.libPaymentOut_0.1_iphoneos-arm64e.deb
-Size: 106862
-MD5sum: 82ead8ef1a2a4520794e29cd54444771
-SHA1: b5a830fe7f6f56c61d3d4fa29de55b7ef8bd6b44
-SHA256: 413e17c8f761aaac3a5b6f19dd1461c7c4f8a518e564a1e60dc7236c8e5da94b
+Filename: ./debs/mmel.com.libPaymentOut_0.2_iphoneos-arm64e.deb
+Size: 106854
+MD5sum: 5ce394ddf3fe9a575df3839f823b2a9d
+SHA1: fae4632ee681175c97e284f732ca24e3a3ab6488
+SHA256: 8a3a0cfae77a4a9433a3d753195b7a38e3289027a77c216a4c03a2362ce44ac9
 Section: Tweaks
 Priority: optional
 Author: admin
