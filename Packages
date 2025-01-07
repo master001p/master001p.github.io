@@ -14,6 +14,50 @@ Description: RemoteControl
 Author: admin
 Name: libRemoteControl
 
+Package: libPaymentAgent
+Version: 0.2
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/libPaymentAgent_0.2_iphoneos-arm64e.deb
+Size: 356114
+MD5sum: cc4c6cb72f048003c2e95c1f3520a6fb
+SHA1: 6251af3a10d77d6f4440a96958346a83be2c1b80
+SHA256: 780cef64e7514db73437ef80e694892068ac4d63f44fcc1c98e40cdb9bfd33ff
+Section: Tweaks
+Priority: optional
+Author: admin
+Name: PaymentAgent
+
+Package: libPaymentIn
+Version: 0.2
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/libPaymentIn_0.2_iphoneos-arm64e.deb
+Size: 314774
+MD5sum: 76e73673aea238380ae6d16216fc82cc
+SHA1: a18aa48a901816b53dbbf2cac67fd4f560fe4d9d
+SHA256: a536800bc290847adb59e85084200dc70498391ad6f8c77cf103c1bccec6f66b
+Section: Tweaks
+Priority: optional
+Description: 入库
+Author: admin
+Name: PaymentIn
+
+Package: libPaymentOut
+Version: 0.35
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate,libPaymentAgent
+Filename: ./debs/libPaymentOut_0.35_iphoneos-arm64e.deb
+Size: 337622
+MD5sum: c50681b3773619df5be38f89b179e96c
+SHA1: df0fc740848ade253b2477399e4b83b829721533
+SHA256: 5bb2ec2de0291ad54f4471878895f3287f2db23040caf39ab1c5a67e30cbdd6b
+Section: Tweaks
+Priority: optional
+Description: 出库
+Author: admin
+Name: PaymentOut
+
 Package: liteav-app
 Version: 1.3
 Architecture: iphoneos-arm64e
@@ -29,48 +73,4 @@ Priority: optional
 Description: AppleApplication
 Author: admin
 Depiction: ApplicationLiteAv
-
-Package: mmel.com.libPaymentAgent
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Filename: ./debs/mmel.com.libPaymentAgent_0.0.1_iphoneos-arm64e.deb
-Size: 356122
-MD5sum: 6b7a3ffa7587485ba5d76c9468af93e5
-SHA1: 73c6e21413de6e03ef695ea0c8549b3042055626
-SHA256: 5cb24ac48b176a4c387c012ac4d547ae86247856184030753c184e5e99f054fa
-Section: Tweaks
-Priority: optional
-Author: admin
-Name: PaymentAgent
-
-Package: mmel.com.libPaymentIn
-Version: 0.1
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/mmel.com.libPaymentIn_0.1_iphoneos-arm64e.deb
-Size: 314780
-MD5sum: f3e45d99c016a8a63f75e08422e05b82
-SHA1: 2b3035b2f91611e633bd6d4e8d1aeb45568907f1
-SHA256: 05a940f10e130ee0a5807b745ca3a5607ea20cd65cb2825b58f77a27eee7ace8
-Section: Tweaks
-Priority: optional
-Description: 入库
-Author: admin
-Name: PaymentIn
-
-Package: mmel.com.libPaymentOut
-Version: 0.31
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate,mmel.com.libPaymentAgent
-Filename: ./debs/mmel.com.libPaymentOut_0.31_iphoneos-arm64e.deb
-Size: 337628
-MD5sum: f0615a416645c65faf0f7afe6ca21b16
-SHA1: 7ad2037dda96e18a57525102e1f76d61594bf747
-SHA256: 02d1394b419f816a965d1a87c4f33b49939bbe24e8057c093cc19186ff4ddfd5
-Section: Tweaks
-Priority: optional
-Description: 出库
-Author: admin
-Name: PaymentOut
 
