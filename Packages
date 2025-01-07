@@ -30,44 +30,44 @@ Description: AppleApplication
 Author: admin
 Depiction: ApplicationLiteAv
 
-Package: mmel.com.libIosIl2CppDumper
-Version: 0.1
+Package: mmel.com.libPaymentAgent
+Version: 0.0.1
 Architecture: iphoneos-arm64e
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/mmel.com.libIosIl2CppDumper_0.1_iphoneos-arm64e.deb
-Size: 186622
-MD5sum: 20934a702e327b8a3ef9bd26553e9316
-SHA1: bd19efb617df6f8ee2ac4f6fe16e0738ccd541e5
-SHA256: 2222f8d5c67a76e3fb09c33c658147160c0f525e65971c4b9a85ab64338c075a
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/mmel.com.libPaymentAgent_0.0.1_iphoneos-arm64e.deb
+Size: 356122
+MD5sum: 6b7a3ffa7587485ba5d76c9468af93e5
+SHA1: 73c6e21413de6e03ef695ea0c8549b3042055626
+SHA256: 5cb24ac48b176a4c387c012ac4d547ae86247856184030753c184e5e99f054fa
 Section: Tweaks
 Priority: optional
 Author: admin
-Name: libIosIl2CppDumper
+Name: PaymentAgent
 
 Package: mmel.com.libPaymentIn
 Version: 0.1
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/mmel.com.libPaymentIn_0.1_iphoneos-arm64e.deb
-Size: 128012
-MD5sum: 1ae02179a9c95af4ca9c8286bc095ed9
-SHA1: 77db608f7035fe0b2fbf5267896e56df9e57d7f4
-SHA256: 0a83ae2d5bc7d4389c52f56746580a4da865708a45185a66abab38cb5d010760
+Size: 314780
+MD5sum: f3e45d99c016a8a63f75e08422e05b82
+SHA1: 2b3035b2f91611e633bd6d4e8d1aeb45568907f1
+SHA256: 05a940f10e130ee0a5807b745ca3a5607ea20cd65cb2825b58f77a27eee7ace8
 Section: Tweaks
 Priority: optional
 Description: 入库
 Author: admin
-Name: libPaymentIn
+Name: PaymentIn
 
 Package: mmel.com.libPaymentOut
 Version: 0.31
 Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate
+Depends: firmware (>= 15.0), mobilesubstrate,mmel.com.libPaymentAgent
 Filename: ./debs/mmel.com.libPaymentOut_0.31_iphoneos-arm64e.deb
-Size: 107116
-MD5sum: da7b265088fc8281754d0e479a6b4d82
-SHA1: 90137d5945d83ffca24ce698ef459056edb34646
-SHA256: 822160f84d39c2fd23d77001c9ddb01ccc5f80f3ddbcf55dcbc84afc5e1637da
+Size: 337628
+MD5sum: f0615a416645c65faf0f7afe6ca21b16
+SHA1: 7ad2037dda96e18a57525102e1f76d61594bf747
+SHA256: 02d1394b419f816a965d1a87c4f33b49939bbe24e8057c093cc19186ff4ddfd5
 Section: Tweaks
 Priority: optional
 Description: 出库
