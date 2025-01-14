@@ -59,6 +59,21 @@ Description: 出库
 Author: admin
 Name: PaymentOut
 
+Package: libPaymentOut
+Version: 0.52
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Filename: ./debs/libPaymentOut_0.52_iphoneos-arm64e.deb
+Size: 122158
+MD5sum: 89dd6d6a1405b596119a49171346ef16
+SHA1: 6e87e23f52f4257d14614e4476a73d32b399571f
+SHA256: 6b9f122cd9fb344befeb438917751a5f5fce38b8620170bb3131b5c01ab96a59
+Section: Tweaks
+Priority: optional
+Description: 出库
+Author: admin
+Name: PaymentOut
+
 Package: liteav-app
 Version: 1.3
 Architecture: iphoneos-arm64e
