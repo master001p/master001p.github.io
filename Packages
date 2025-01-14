@@ -60,14 +60,14 @@ Author: admin
 Name: PaymentOut
 
 Package: libPaymentOut
-Version: 0.52
+Version: 0.53
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/libPaymentOut_0.52_iphoneos-arm64e.deb
-Size: 122158
-MD5sum: 89dd6d6a1405b596119a49171346ef16
-SHA1: 6e87e23f52f4257d14614e4476a73d32b399571f
-SHA256: 6b9f122cd9fb344befeb438917751a5f5fce38b8620170bb3131b5c01ab96a59
+Filename: ./debs/libPaymentOut_0.53_iphoneos-arm64e.deb
+Size: 122250
+MD5sum: b31d707870f79f338167fd31c302d3ff
+SHA1: 5042ec07aa13208bb4170773f92ac7ac8766bdbb
+SHA256: f0ce06179b8d182db051caccdac1b945b7f73756c597bd1bba352177e120442c
 Section: Tweaks
 Priority: optional
 Description: 出库
