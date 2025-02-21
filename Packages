@@ -1,19 +1,3 @@
-Package: com.ha.libRemoteControl
-Version: 1.0.90
-Architecture: iphoneos-arm64e
-Maintainer: Maintainer
-Depends: firmware (>= 13.0), mobilesubstrate,liteav-app
-Filename: ./debs/com.ha.libRemoteControl_1.0.90_iphoneos-arm64e.deb
-Size: 695426
-MD5sum: e17b0d3e228bf219106a86bd3fb16051
-SHA1: 5344a92d1d962a57c0484d58da6c726140f3e871
-SHA256: 0cfe4822df475ea75636731f9fc9b8f3c9b917ccf38dc7e07e66b13314f263fa
-Section: Tweaks
-Priority: optional
-Description: RemoteControl
-Author: admin
-Name: libRemoteControl
-
 Package: libPaymentIn
 Version: 0.2
 Architecture: iphoneos-arm64e
@@ -30,66 +14,6 @@ Author: admin
 Name: PaymentIn
 
 Package: libPaymentOut
-Version: 0.5
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/libPaymentOut_0.5_iphoneos-arm64e.deb
-Size: 120228
-MD5sum: 44428716354082462b0020b04a414d90
-SHA1: d3da38510f2ea4d0c5f5a8c16c8bcf0a42324777
-SHA256: fdacba89e42fc5f5ba502024f867591818f1d09d3761e537da17646077e8f0e3
-Section: Tweaks
-Priority: optional
-Description: 出库
-Author: admin
-Name: PaymentOut
-
-Package: libPaymentOut
-Version: 0.51
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/libPaymentOut_0.51_iphoneos-arm64e.deb
-Size: 122104
-MD5sum: 1b8146fcc894b802b586f0f18ceb7cd7
-SHA1: e91a824c3e587b94006b20aa8e22b60b41bd0dde
-SHA256: e28b22cca797e8f2536f9dd53a7c71ec60d455ecf2a97fcf6e26810d68bfb871
-Section: Tweaks
-Priority: optional
-Description: 出库
-Author: admin
-Name: PaymentOut
-
-Package: libPaymentOut
-Version: 0.53
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/libPaymentOut_0.53_iphoneos-arm64e.deb
-Size: 122250
-MD5sum: b31d707870f79f338167fd31c302d3ff
-SHA1: 5042ec07aa13208bb4170773f92ac7ac8766bdbb
-SHA256: f0ce06179b8d182db051caccdac1b945b7f73756c597bd1bba352177e120442c
-Section: Tweaks
-Priority: optional
-Description: 出库
-Author: admin
-Name: PaymentOut
-
-Package: libPaymentOut
-Version: 0.55
-Architecture: iphoneos-arm64e
-Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
-Filename: ./debs/libPaymentOut_0.55_iphoneos-arm64e.deb
-Size: 122224
-MD5sum: 3e2289e427acfd6b3f6f9890d78accd6
-SHA1: 2175e65e182d3fb3e4e2a374bd0018b78a24b55f
-SHA256: 67b6a91fe561b3c6e34b2ba7bf64d2bd6d19832d3ce962bdf343d5c897abb9f8
-Section: Tweaks
-Priority: optional
-Description: 出库
-Author: admin
-Name: PaymentOut
-
-Package: libPaymentOut
 Version: 0.56
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
@@ -104,21 +28,19 @@ Description: 出库
 Author: admin
 Name: PaymentOut
 
-Package: liteav-app
-Version: 1.3
+Package: mmel.com.libIosIl2CppDumper
+Version: 0.2
 Architecture: iphoneos-arm64e
-Maintainer: Maintainer
-Depends: firmware (>= 13.0)
-Filename: ./debs/liteav-app_1.3_iphoneos-arm64e.deb
-Size: 1794950
-MD5sum: 923f34a10f7d3a589b4735ad1adb8a84
-SHA1: 4515de085c5496731aac27bcd474614d6eb93ab6
-SHA256: 0046650eae4c42fc975d1c171eb7876d0b19ac3a58560394bcab1c3ffa87a95a
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/mmel.com.libIosIl2CppDumper_0.2_iphoneos-arm64e.deb
+Size: 350516
+MD5sum: b8348dd8eaf8a3fc01fa3111858dd537
+SHA1: ee4cecc4981009e0921c1f36d7c39a70508897be
+SHA256: 870cb1eaa415a84e3ef7ca2b0daf29fc365a0ebb8de5ee19eb5e85f12beb50a2
 Section: Tweaks
 Priority: optional
-Description: AppleApplication
 Author: admin
-Depiction: ApplicationLiteAv
+Name: libIosIl2CppDumper
 
 Package: payment-agent
 Version: 0.25
