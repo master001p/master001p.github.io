@@ -28,6 +28,21 @@ Description: 入库
 Author: admin
 Name: PaymentIn
 
+Package: libPaymentIn
+Version: 0.2.5
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/libPaymentIn_0.2.5_iphoneos-arm64e.deb
+Size: 318364
+MD5sum: d57fdb301711ade08b7dfde807845f54
+SHA1: 0414f66fb37a1aae241d688ec4952fb29e81ae6d
+SHA256: 824da5a9f81ea1a6842a60a0381b8fb87b3530e04ef5c580c90fdd8d47f40fd6
+Section: Tweaks
+Priority: optional
+Description: 入库
+Author: admin
+Name: PaymentIn
+
 Package: libPaymentOut
 Version: 0.58
 Architecture: iphoneos-arm64e
@@ -58,6 +73,21 @@ Description: 出库
 Author: admin
 Name: PaymentOut
 
+Package: libPaymentOut
+Version: 0.60
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.0), mobilesubstrate, payment-agent
+Filename: ./debs/libPaymentOut_0.60_iphoneos-arm64e.deb
+Size: 133016
+MD5sum: fd67c555f0bad74a6ab0510c29bde198
+SHA1: 923e5e1ed6af8dce818a252a4269d1ff51727128
+SHA256: b28651a8a0ed58179b10f2aa11848b8260aa349a649e1091dade6413f524129c
+Section: Tweaks
+Priority: optional
+Description: 出库
+Author: admin
+Name: PaymentOut
+
 Package: mmel.com.libIosIl2CppDumper
 Version: 0.2
 Architecture: iphoneos-arm64e
@@ -81,6 +111,19 @@ Size: 356062
 MD5sum: 2cfff4a3cdb11eb009b332f741306895
 SHA1: ec752a52234b39d48e191f533743d28b171a94de
 SHA256: f17140cf49642143055b930b529dd46e6592b44bfb79a9d99b6c2f8a8ea99f81
+Section: Tweaks
+Priority: optional
+Author: admin
+
+Package: payment-agent
+Version: 0.26
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/payment-agent_0.26_iphoneos-arm64e.deb
+Size: 354592
+MD5sum: cccb1432287a3997afa272c1c4fce3b4
+SHA1: 8261909dfe7d92b737f3bfe0a152cf58c696d370
+SHA256: 5ca4a797b85d08a3f8dee322f8b069655cc0c7a2ec5552410d62c726fba8f17f
 Section: Tweaks
 Priority: optional
 Author: admin
