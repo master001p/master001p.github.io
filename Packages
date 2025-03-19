@@ -161,6 +161,20 @@ Priority: optional
 Author: admin
 Name: libIosIl2CppDumper
 
+Package: mmel.com.libIosIl2CppDumper
+Version: 0.2.3
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/mmel.com.libIosIl2CppDumper_0.2.3_iphoneos-arm64e.deb
+Size: 364084
+MD5sum: 1416ed35a1b07f328a4f17a7e6fe797c
+SHA1: 50b44485c8e67a05a68eadb7d44c79a9a03f1701
+SHA256: 0eaf508a9eecc7afeee1693c379575c61ee8fdbd6031db9d6518c24c9f250b24
+Section: Tweaks
+Priority: optional
+Author: admin
+Name: libIosIl2CppDumper
+
 Package: payment-agent
 Version: 0.25
 Architecture: iphoneos-arm64e
